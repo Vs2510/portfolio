@@ -1,0 +1,282 @@
+.heroimage{
+   background-image: url("2.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:center ;
+   display: grid;
+   position: relative;
+   padding: 170px;
+   min-height: 500px;
+}
+
+.herotext{
+    color:white;
+    transform: translate(-50%, -50%);
+     display: inline;
+     top:350px;
+     left :50%;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    
+    text-decoration: none;
+    
+}
+/*.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: transparent;
+    
+  }
+
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    display:flex;
+    position: relative;
+    float: right; 
+   /* padding-right: 300px;
+   
+    
+
+  
+  } 
+  
+  .navbar li {
+    
+    font-size: 20px;
+   /* float: left; 
+   
+    
+    display: inline; */
+  /*margin: 0 10px;
+  margin-top:40px;
+ /* margin-left:100px; 
+  padding-left: 30px; 
+  margin-right: 30px; 
+    
+  }
+  
+  .navbar li a {
+    display: block;
+    padding: 10px;
+  color: white;
+  position: absolute;
+  text-decoration: none;
+}
+.navbar li a:hover{
+  color: teal;
+
+} */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+ /* z-index: 100;*/
+ /*margin-left: -177px;
+ height: 50px; */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  display:flex;
+  /*justify-content:center; */
+  
+
+
+}
+
+nav li {
+  
+  font-size: 20px;
+ /* float: left; 
+ 
+  
+  display: inline; */
+/*margin: 0 10px;
+margin-top:50px;
+margin-left:1px;
+margin-right: 30px; */
+  
+}
+
+nav li a {
+  display: block;
+ /* padding: 10px;*/
+color: white;
+text-decoration: none;
+}
+.navbar {
+background-color: transparent; /* Initial transparent background */
+
+}
+nav li a:hover{
+  color:#f97171;
+
+}
+.navbar-scrolled {
+background:  #29425c;
+color: black;
+
+}
+  
+#about h3{
+  color: black;
+  font-size: 25px;
+  justify-content: center;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+#Contact{
+  display: inline-block;
+}
+#Contact h3{
+  color: black;
+  font-size: 25px;
+  
+  justify-content: center;
+  text-align: center;
+}
+  #Contact p{
+    color: black;
+    font-size: 18px;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+    
+  } 
+  #resume_box {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid teal;
+    border-radius: 5px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 330px;
+    
+  }
+  #resume_box a{
+    display: block;
+      padding: 10px;
+      background-color:white;
+      border-radius: 10px teal;
+      text-decoration: none;
+      color:black;
+      width: 50px;
+      height: 5px;
+      margin-left: 155px;
+      font-size: 17px;
+  }
+  #resume_box a  :hover{
+    color: #f97171;
+  }
+  
+  #mail_box {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid teal;
+    border-radius: 5px;
+   /* margin-left: 800px;*/
+   float: right;
+   margin-right: 50px;
+   
+  }
+  #mail_box a{
+    display: block;
+      padding: 10px;
+      background-color:white;
+      border-radius: 10px teal;
+      text-decoration: none;
+      color:black;
+      width: 50px;
+      height: 5px;
+      margin-left: 120px;
+      font-size: 17px;
+  }
+  #mail_box a  :hover{
+    color: #f97171;
+    
+  }
+  footer{
+  background-color:#29425C;
+  color:black;
+  padding: 10px;
+  width: 2000px;
+  height: 40px; 
+  justify-content: center;
+  text-align: center;
+  
+  }
+  .box{
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px white;
+    border-radius: 5px;
+   margin-right: 5px;
+   
+  }
+.img{
+    
+    float: left;
+    margin-left: 15px;
+    
+}
+
+#project h3{
+  color: black;
+  font-size: 25px;
+  
+  justify-content: center;
+  text-align: center;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color:teal;
+      float: left;
+     margin-bottom: 500px;
+     margin-left: 250px;
+}
+.circle2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color:teal;
+float: right;
+margin-right: 250px;
+}
+
+#more h3{
+  color: black;
+  font-size: 25px;
+  
+  justify-content: center;
+  text-align: center;
+}
+.circletxt{
+  color:black;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 220px;
+}
+
+.circle2txt{
+  color:black;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 220px;
+}
